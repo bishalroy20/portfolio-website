@@ -1,0 +1,158 @@
+
+
+*{
+    border: 0px;
+    margin: 0px;
+    
+}
+
+header{
+    /* padding: 60px; */
+    background-color: antiquewhite;
+    background-image: url(./img/header_bg.png) , url(./img/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left ;
+    height: 800px;  
+    padding-top: 20px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: bisque;
+
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li a:hover{
+    color: tomato;
+    transition: 300ms;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.hero-btn{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+.hero-btn:hover{
+    color:blue ;
+}
+/* intro */
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+
+}
+.title-container{
+    margin-left: 80px;
+    align-items: center;
+    padding-top: 170px;
+}
+.title-container p{
+    padding-bottom : 30px;
+}
+.img-container{
+    padding-top: 110px;
+    
+}
+
+
+/* about me */
+
+.container-about{
+    background-color: rgb(191, 225, 225);
+    border: 2px solid saddlebrown;
+    margin: 30px 100px 30px 100px;
+    padding: 40px;
+}
+.container-about p{
+    padding-top: 20px;
+}
+
+.container-tech p{
+    padding-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.skill-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.skil{
+    border: 1px solid seagreen;
+    margin: 10px;
+    box-shadow: 5px 10px rgb(9, 9, 8);
+}
+
+.skil:hover{
+    background-color: rgb(9, 209, 86);
+    font-size: 130%;
+}
+.summary{
+    background-color: #b19784;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+.exp , .edu{
+    border: 1px dotted black;
+    margin: 5px;
+}
+.edu-skill{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+    padding-top: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer input[type="text"],  footer input[type="email"], footer textarea{
+    height: 24px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    
+}
